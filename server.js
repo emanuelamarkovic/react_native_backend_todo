@@ -11,7 +11,7 @@ const app = express();
 
 app.use(express.json());
 
-const allowedOrigins = ["http://localhost:8888", "http://localhost:3000"];
+const allowedOrigins = ["http://localhost:8888", "http://localhost:8081"];
 const corsOptions = {
   origin: function (origin, callback) {
     if (allowedOrigins.includes(origin)) {
