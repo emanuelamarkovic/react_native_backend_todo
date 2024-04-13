@@ -1,5 +1,6 @@
 import express from "express";
 import "./config.js";
+import "./db-connect.js";
 import cors from "cors";
 import endpointsInfosHTMLResponse from "./utils/endPointsInfosHTMLResponse.js";
 import { todoRouter, todosMainPath } from "./routes/todoRoutes.js";
